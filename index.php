@@ -1,5 +1,5 @@
 <html>
-  <body bgcolor='red'>
+<body bgcolor='red'>
 <h1>Welcome to j2c technologies.....!!!!!!!!!
-  </body>
+</body>
 </html>
