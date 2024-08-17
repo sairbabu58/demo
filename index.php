@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
-<body color=red>  
-Hello Srikanth.....!!!!!!!!!!!!
+<body style="background-color:red;">
+
+<h1>Hello Srikanth </h1>
 
 
-  </body>
-  </html>
+</body>
+</html>
