@@ -1,1 +1,11 @@
-I am henry... V1    !!!!!!!
+apiVersion: machineconfiguration.openshift.io/v1
+kind: MachineConfigPool
+metadata:
+  name: infra
+spec:
+  machineConfigSelector:
+    matchExpressions:
+      - {key: machineconfiguration.openshift.io/role, operator: In, values: [worker,infra]} 
+  nodeSelector:
+    matchLabels:
+      node-role.kubernetes.io/infra: "" 
